@@ -1,0 +1,165 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;    /*center whatever is in the body (except what has a width) */
+  /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;  /*if the user doesn't have a particular font installed*/
+  font-family: 'Playfair Display', serif;
+  font-size: 125%;
+}
+
+h1{
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  /*font-size: 562.5%;  /*same as 90px*/
+  font-size: 5.625rem;  /*root em: keeps the size indipendently by the parent */
+  margin: 40px auto 0 auto;
+
+  /*
+  witdh: 10%;
+  margin: 0 auto 0 auto;     to center the text
+  */
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 2.5rem;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-color: #EAF6F6;
+  border-width: 6px;
+  height: 1px;
+  width: 5%;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{          /*gives a different color to the text when the mouse passes over it*/
+  color: #EAF6F6;
+}
+
+p{
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 2;
+}
+
+
+
+.top-container{
+  background-color: #EAF6F6;
+  /*line-height: 2;*/
+  padding-top: 100px;
+  position: relative;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.contacts{
+  margin-top: 100px;
+}
+
+.presentation{
+  color: #40514E;
+}
+
+.btn {
+	background-color:#66bfbf;
+	border-radius:10px;
+	border:1px solid #559696;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn:hover {
+	background-color:#78e6e6;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 200px;
+  top:50px;
+}
+
+.profile{
+  margin-top: 100px;
+}
+
+.skills{
+  margin: 100px 50px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 70px auto 70px auto; /*clock wise*/
+  text-align: justify;
+}
+
+.subtitle{
+  font-weight: normal;
+}
+
+
+.computer-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-img{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 1rem;
+  padding-top: 20px;
+}
+
+.intro{
+  width: 40%;
+  margin:auto;
+  margin-bottom: 50px;
+}
+
+/*
+
+img{
+    relative position -> referring to the position where it was supposed to be following html follow
+    absolute position -> relative to the parent
+    fixed position -> the image remains in that position even during scrolling
+}
+
+*/
